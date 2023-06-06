@@ -1,0 +1,94 @@
+.face{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 15%;
+    position: relative;
+}
+.eyes{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20%;
+    position: absolute;
+    width: 300px;
+}
+.leye{
+    height:75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50%;
+}
+.reye{
+    height:75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50%;
+}
+.nose{
+    height: 70px;
+    width: 120px;
+    border-radius: 40px;
+    background-color: rgb(226, 23, 23) ;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 60%;
+    position: absolute;
+    margin-left: 29%;
+    display:flex;
+    justify-content: space-around;
+    
+}
+#leyeball{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    margin: auto;
+    margin-top: 25px;
+}
+#reyeball{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    margin: auto;
+    margin-top: 25px;
+}
+#hole{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    margin: auto;
+    margin-top: 15px;
+}
+.ears{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: -9%;
+    z-index: -1;
+    width:300px;
+}
+#lear{
+    height: 110px;
+    width: 120px;
+    background-color:pink;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border:2px solid black;
+}
+#rear{
+    height: 110px;
+    width: 120px;
+    background-color:pink;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border:2px solid black;
+}
